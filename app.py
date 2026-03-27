@@ -174,6 +174,11 @@ h1, h2, h3 {
     box-shadow: 0 0 10px rgba(0, 240, 255, 0.2) !important;
 }
 
+/* Fix Dropdown Text Color */
+[data-baseweb="popover"] * {
+    color: #000000 !important;
+}
+
 [data-testid="stFormSubmitButton"] button {
     background: linear-gradient(to right, var(--ln-neon), var(--neon-cyan)) !important;
     color: #000 !important;
